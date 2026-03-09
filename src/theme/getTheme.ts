@@ -13,7 +13,7 @@ export function getTheme(isDarkMode: boolean) {
   };
 }
 
-// Keep useTheme as a convenience hook - ONLY call this inside components
+// Keep useTheme as a convenience hook
 import { useAppSelector } from '../hooks/useAppSelector';
 export function useTheme() {
   const isDarkMode = useAppSelector((s) => s.ui.isDarkMode);

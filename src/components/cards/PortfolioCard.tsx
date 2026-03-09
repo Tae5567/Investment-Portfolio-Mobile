@@ -92,7 +92,7 @@ export function PortfolioCard({ portfolio }: Props) {
   );
 }
 
-// PortfolioCard always uses dark gradient — intentional, looks premium in both modes
+// PortfolioCard intentionally always uses dark gradient in both modes
 const styles = StyleSheet.create({
   card: {
     borderRadius: borderRadius.xl, padding: spacing.lg,
